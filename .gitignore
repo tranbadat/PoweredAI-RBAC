@@ -5,6 +5,7 @@ build/
 dist/
 .pytest_cache/
 .venv/
+.venv_win/
 .env/
 coverage.xml
 .coverage

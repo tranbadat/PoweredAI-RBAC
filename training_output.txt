@@ -1,62 +1,16 @@
-# policy
+D:\projects\master\PoweredAI-RBAC\src\policy\train.py:247: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
 
-Python project scaffold.
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  recent_logs["label"] = recent_logs["resource_type"] + "_" + recent_logs["action"]
+D:\projects\master\PoweredAI-RBAC\src\policy\train.py:266: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
 
-## Development
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
 
-Create a virtual environment and install dependencies:
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pip install -e ".[dev]"
-```
-
-Run tests:
-
-```bash
-pytest
-```
-
-Run training (run from repo root; creates `permission_recommender.pkl`):
-
-```bash
-python src/policy/train.py
-```
-
-Run FastAPI:
-
-```bash
-uvicorn api:app --reload
-```
-
-## Cơ cấu tổ chức
-
-Mô hình dữ liệu mô phỏng một bệnh viện/chuỗi chi nhánh với các thành phần chính:
-
-- Chi nhánh (branch): ví dụ `CN_HN`, `CN_HCM`.
-- Khoa/Phòng ban (department): ví dụ `Khoa_Noi`, `Khoa_Ngoai`, `Phong_TiepDon`, `Phong_NhanSu`, `Phong_TaiChinh`.
-- Vai trò (role): Doctor, Nurse, Receptionist, Cashier, HR.
-- Thuộc tính bổ sung: `license` (Yes/No), `seniority` (Junior/Senior), `employment_type`.
-
-## Vai trò và quyền
-
-Quyền được biểu diễn theo dạng `resource_action` (ví dụ `MedicalRecord_read`), và mỗi vai trò thường gắn với các nhóm quyền đặc trưng:
-
-- Doctor: truy cập hồ sơ bệnh án và kê đơn.
-- Nurse: đọc hồ sơ bệnh án, tạo/chỉnh dấu hiệu sinh tồn.
-- Receptionist: tạo/đọc thông tin bệnh nhân và lịch hẹn.
-- Cashier: đọc/cập nhật hóa đơn.
-- HR: đọc/cập nhật hồ sơ nhân sự.
-
-Quyền thực tế cho từng người dùng được học từ dữ liệu lịch sử trong `permissions.csv` và `audit_logs.csv`.
-
-## Training output
-
-Captured from running `python src/policy/train.py` (saved in `training_output.txt`).
-
-```text
+  rightsizing_df["usage_count"].fillna(0, inplace=True)
 Đang tải dữ liệu...
 Tổng số người dùng: 1000
 Tổng số nhãn quyền: 11
@@ -85,12 +39,10 @@ PatientProfile_create       1.00      1.00      1.00        38
 
 
 Demo: Gợi ý quyền cho người dùng mới
-Input new_user: {'role': 'Doctor', 'department': 'Khoa_Noi', 'branch': 'CN_HN', 'license': 'Yes', 'seniority': 'Senior'}
 Quyền được gợi ý:
 - MedicalRecord_read (độ tin cậy=1.0)
 - MedicalRecord_update (độ tin cậy=1.0)
 - Prescription_create (độ tin cậy=1.0)
-Output new_user (labels): ['MedicalRecord_read', 'MedicalRecord_update', 'Prescription_create']
 
 Tầm quan trọng đặc trưng (top) cho nhãn quyền đầu tiên:
 cat__role_Cashier                 0.417655
@@ -106,8 +58,6 @@ cat__department_Khoa_Ngoai        0.007063
 dtype: float64
 
 Tình huống: Gợi ý quyền khi chuyển vị trí công tác
-Input old_profile: {'role': 'Doctor', 'department': 'Khoa_Noi', 'branch': 'CN_HN', 'license': 'Yes', 'seniority': 'Senior'}
-Input new_profile: {'role': 'HR', 'department': 'Phong_NhanSu', 'branch': 'CN_HN', 'license': 'No', 'seniority': 'Senior'}
 
 Quyền TRƯỚC khi chuyển:
 - MedicalRecord_read (độ tin cậy=1.0)
@@ -117,11 +67,9 @@ Quyền TRƯỚC khi chuyển:
 Quyền SAU khi chuyển:
 - StaffProfile_read (độ tin cậy=1.0)
 - StaffProfile_update (độ tin cậy=1.0)
-Output old_profile (labels): ['MedicalRecord_read', 'MedicalRecord_update', 'Prescription_create']
-Output new_profile (labels): ['StaffProfile_read', 'StaffProfile_update']
 
 Phân tích chênh lệch quyền:
-Quyền được thêm   : ['StaffProfile_read', 'StaffProfile_update']
+Quyền được thêm   : ['StaffProfile_update', 'StaffProfile_read']
 Quyền bị gỡ      : ['MedicalRecord_read', 'MedicalRecord_update', 'Prescription_create']
 Quyền được giữ lại: []
 
@@ -178,4 +126,3 @@ Chiến lược xử lý bất thường:
 Kích thước dự đoán kiểm tra: (1, 11)
 
 Hoàn tất huấn luyện.
-```

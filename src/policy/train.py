@@ -133,6 +133,8 @@ new_user = pd.DataFrame([{
     "seniority": "Senior"
 }])
 
+print("Input new_user:", new_user.to_dict(orient="records")[0])
+
 proba = model.predict_proba(new_user)
 
 recommendations = []
@@ -146,6 +148,8 @@ recommendations = sorted(recommendations, key=lambda x: x[1], reverse=True)
 print("Quyền được gợi ý:")
 for perm, conf in recommendations:
     print(f"- {perm} (độ tin cậy={conf})")
+
+print("Output new_user (labels):", [perm for perm, _ in recommendations])
 
 # =========================
 # 9. FEATURE IMPORTANCE (EXPLAINABILITY)
@@ -187,6 +191,9 @@ new_profile = {
 old_user_df = pd.DataFrame([old_profile])
 new_user_df = pd.DataFrame([new_profile])
 
+print("Input old_profile:", old_profile)
+print("Input new_profile:", new_profile)
+
 old_proba = model.predict_proba(old_user_df)
 new_proba = model.predict_proba(new_user_df)
 
@@ -209,6 +216,9 @@ for p, c in sorted(old_perms.items(), key=lambda x: x[1], reverse=True):
 print("\nQuyền SAU khi chuyển:")
 for p, c in sorted(new_perms.items(), key=lambda x: x[1], reverse=True):
     print(f"- {p} (độ tin cậy={round(c, 2)})")
+
+print("Output old_profile (labels):", sorted(old_perms.keys()))
+print("Output new_profile (labels):", sorted(new_perms.keys()))
 
 # Delta analysis
 added = set(new_perms.keys()) - set(old_perms.keys())
