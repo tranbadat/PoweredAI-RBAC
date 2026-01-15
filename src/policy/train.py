@@ -329,6 +329,7 @@ recent_logs = audit_logs[
 ]
 
 # Build usage map: (user, permission) -> count
+recent_logs = recent_logs.copy()
 recent_logs["label"] = recent_logs["resource_type"] + "_" + recent_logs["action"]
 
 usage_counts = (
@@ -348,7 +349,7 @@ rightsizing_df = assigned.merge(
     how="left"
 )
 
-rightsizing_df["usage_count"].fillna(0, inplace=True)
+rightsizing_df["usage_count"] = rightsizing_df["usage_count"].fillna(0)
 
 # Detect unused permissions
 UNUSED_THRESHOLD = 0
