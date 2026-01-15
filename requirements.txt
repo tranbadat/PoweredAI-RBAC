@@ -3,3 +3,6 @@ scikit-learn
 fastapi
 uvicorn
 joblib
+sqlalchemy
+psycopg2-binary
+python-dotenv

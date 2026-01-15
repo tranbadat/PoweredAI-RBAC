@@ -28,7 +28,7 @@ python src/policy/train.py
 Run FastAPI:
 
 ```bash
-uvicorn api:app --reload
+python -m uvicorn api:app --reload
 ```
 
 ## Cơ cấu tổ chức

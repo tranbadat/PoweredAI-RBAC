@@ -1,1001 +1,518 @@
-user_id,role,department,branch,position,license,seniority,employment_type
-U0000,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0001,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0002,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0003,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0004,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0005,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0006,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0007,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0008,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0009,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0010,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0011,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0012,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0013,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0014,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0015,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0016,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0017,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0018,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0019,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0020,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0021,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0022,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0023,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0024,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0025,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0026,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0027,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0028,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0029,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0030,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0031,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0032,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0033,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0034,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0035,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0036,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0037,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0038,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0039,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0040,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0041,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0042,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0043,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0044,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0045,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0046,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0047,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0048,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0049,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0050,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0051,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0052,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0053,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0054,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0055,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0056,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0057,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0058,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0059,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0060,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0061,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0062,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0063,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0064,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0065,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0066,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0067,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0068,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0069,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0070,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0071,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0072,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0073,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0074,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0075,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0076,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0077,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0078,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0079,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0080,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0081,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0082,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0083,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0084,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0085,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0086,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0087,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0088,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0089,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0090,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0091,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0092,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0093,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0094,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0095,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0096,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0097,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0098,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0099,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0100,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0101,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0102,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0103,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0104,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0105,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0106,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0107,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0108,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0109,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0110,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0111,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0112,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0113,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0114,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0115,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0116,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0117,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0118,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0119,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0120,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0121,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0122,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0123,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0124,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0125,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0126,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0127,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0128,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0129,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0130,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0131,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0132,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0133,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0134,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0135,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0136,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0137,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0138,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0139,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0140,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0141,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0142,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0143,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0144,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0145,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0146,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0147,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0148,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0149,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0150,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0151,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0152,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0153,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0154,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0155,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0156,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0157,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0158,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0159,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0160,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0161,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0162,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0163,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0164,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0165,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0166,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0167,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0168,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0169,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0170,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0171,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0172,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0173,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0174,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0175,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0176,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0177,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0178,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0179,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0180,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0181,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0182,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0183,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0184,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0185,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0186,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0187,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0188,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0189,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0190,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0191,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0192,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0193,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0194,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0195,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0196,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0197,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0198,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0199,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0200,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0201,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0202,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0203,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0204,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0205,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0206,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0207,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0208,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0209,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0210,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0211,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0212,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0213,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0214,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0215,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0216,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0217,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0218,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0219,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0220,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0221,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0222,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0223,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0224,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0225,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0226,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0227,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0228,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0229,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0230,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0231,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0232,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0233,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0234,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0235,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0236,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0237,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0238,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0239,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0240,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0241,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0242,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0243,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0244,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0245,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0246,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0247,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0248,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0249,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0250,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0251,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0252,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0253,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0254,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0255,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0256,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0257,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0258,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0259,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0260,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0261,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0262,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0263,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0264,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0265,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0266,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0267,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0268,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0269,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0270,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0271,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0272,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0273,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0274,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0275,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0276,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0277,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0278,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0279,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0280,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0281,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0282,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0283,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0284,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0285,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0286,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0287,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0288,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0289,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0290,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0291,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0292,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0293,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0294,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0295,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0296,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0297,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0298,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0299,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0300,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0301,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0302,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0303,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0304,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0305,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0306,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0307,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0308,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0309,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0310,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0311,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0312,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0313,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0314,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0315,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0316,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0317,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0318,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0319,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0320,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0321,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0322,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0323,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0324,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0325,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0326,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0327,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0328,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0329,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0330,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0331,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0332,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0333,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0334,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0335,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0336,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0337,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0338,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0339,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0340,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0341,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0342,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0343,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0344,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0345,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0346,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0347,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0348,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0349,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0350,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0351,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0352,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0353,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0354,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0355,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0356,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0357,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0358,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0359,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0360,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0361,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0362,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0363,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0364,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0365,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0366,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0367,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0368,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0369,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0370,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0371,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0372,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0373,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0374,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0375,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0376,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0377,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0378,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0379,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0380,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0381,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0382,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0383,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0384,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0385,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0386,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0387,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0388,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0389,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0390,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0391,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0392,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0393,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0394,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0395,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0396,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0397,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0398,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0399,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0400,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0401,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0402,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0403,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0404,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0405,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0406,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0407,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0408,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0409,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0410,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0411,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0412,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0413,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0414,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0415,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0416,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0417,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0418,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0419,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0420,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0421,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0422,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0423,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0424,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0425,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0426,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0427,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0428,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0429,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0430,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0431,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0432,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0433,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0434,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0435,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0436,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0437,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0438,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0439,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0440,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0441,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0442,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0443,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0444,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0445,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0446,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0447,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0448,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0449,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0450,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0451,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0452,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0453,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0454,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0455,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0456,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0457,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0458,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0459,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0460,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0461,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0462,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0463,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0464,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0465,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0466,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0467,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0468,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0469,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0470,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0471,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0472,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0473,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0474,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0475,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0476,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0477,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0478,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0479,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0480,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0481,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0482,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0483,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0484,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0485,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0486,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0487,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0488,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0489,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0490,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0491,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0492,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0493,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0494,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0495,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0496,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0497,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0498,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0499,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0500,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0501,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0502,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0503,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0504,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0505,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0506,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0507,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0508,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0509,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0510,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0511,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0512,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0513,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0514,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0515,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0516,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0517,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0518,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0519,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0520,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0521,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0522,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0523,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0524,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0525,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0526,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0527,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0528,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0529,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0530,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0531,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0532,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0533,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0534,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0535,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0536,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0537,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0538,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0539,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0540,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0541,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0542,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0543,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0544,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0545,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0546,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0547,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0548,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0549,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0550,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0551,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0552,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0553,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0554,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0555,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0556,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0557,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0558,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0559,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0560,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0561,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0562,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0563,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0564,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0565,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0566,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0567,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0568,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0569,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0570,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0571,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0572,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0573,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0574,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0575,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0576,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0577,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0578,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0579,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0580,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0581,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0582,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0583,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0584,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0585,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0586,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0587,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0588,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0589,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0590,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0591,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0592,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0593,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0594,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0595,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0596,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0597,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0598,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0599,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0600,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0601,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0602,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0603,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0604,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0605,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0606,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0607,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0608,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0609,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0610,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0611,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0612,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0613,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0614,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0615,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0616,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0617,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0618,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0619,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0620,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0621,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0622,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0623,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0624,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0625,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0626,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0627,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0628,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0629,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0630,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0631,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0632,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0633,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0634,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0635,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0636,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0637,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0638,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0639,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0640,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0641,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0642,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0643,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0644,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0645,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0646,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0647,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0648,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0649,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0650,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0651,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0652,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0653,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0654,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0655,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0656,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0657,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0658,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0659,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0660,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0661,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0662,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0663,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0664,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0665,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0666,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0667,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0668,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0669,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0670,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0671,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0672,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0673,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0674,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0675,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0676,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0677,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0678,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0679,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0680,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0681,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0682,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0683,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0684,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0685,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0686,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0687,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0688,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0689,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0690,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0691,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0692,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0693,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0694,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0695,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0696,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0697,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0698,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0699,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0700,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0701,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0702,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0703,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0704,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0705,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0706,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0707,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0708,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0709,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0710,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0711,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0712,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0713,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0714,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0715,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0716,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Junior,FullTime
-U0717,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0718,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0719,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0720,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0721,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0722,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0723,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0724,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0725,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0726,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0727,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0728,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0729,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0730,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0731,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0732,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0733,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0734,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0735,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0736,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0737,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0738,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0739,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0740,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0741,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0742,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0743,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0744,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0745,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0746,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0747,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0748,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0749,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0750,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0751,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0752,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0753,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0754,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0755,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0756,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0757,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0758,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0759,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0760,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0761,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0762,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0763,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0764,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0765,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0766,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0767,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0768,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0769,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0770,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0771,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0772,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0773,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0774,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0775,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0776,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0777,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0778,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0779,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0780,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0781,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0782,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0783,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0784,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0785,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0786,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0787,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0788,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0789,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0790,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0791,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0792,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0793,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0794,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0795,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0796,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0797,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0798,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0799,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0800,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0801,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0802,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0803,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0804,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0805,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0806,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0807,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0808,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0809,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0810,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0811,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0812,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0813,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0814,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0815,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0816,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0817,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0818,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0819,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0820,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0821,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0822,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0823,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0824,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0825,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0826,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0827,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0828,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0829,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0830,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0831,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0832,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0833,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0834,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0835,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0836,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0837,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0838,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0839,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0840,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0841,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0842,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0843,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0844,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0845,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0846,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0847,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0848,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0849,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0850,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0851,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0852,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0853,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0854,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0855,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0856,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0857,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0858,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0859,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0860,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0861,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0862,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0863,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0864,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0865,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0866,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0867,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0868,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0869,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0870,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0871,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0872,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0873,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0874,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0875,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0876,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Senior,FullTime
-U0877,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0878,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0879,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0880,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0881,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0882,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0883,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0884,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0885,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0886,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0887,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0888,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0889,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0890,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0891,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0892,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0893,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0894,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0895,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0896,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0897,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0898,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0899,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0900,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0901,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0902,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Junior,FullTime
-U0903,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0904,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0905,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0906,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0907,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0908,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0909,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0910,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0911,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0912,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0913,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0914,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0915,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0916,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0917,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0918,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0919,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0920,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0921,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0922,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0923,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0924,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0925,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0926,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0927,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Junior,FullTime
-U0928,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0929,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Mid,FullTime
-U0930,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0931,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Mid,FullTime
-U0932,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Junior,FullTime
-U0933,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0934,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0935,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0936,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0937,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0938,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Senior,FullTime
-U0939,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Senior,FullTime
-U0940,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Mid,FullTime
-U0941,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0942,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Senior,FullTime
-U0943,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0944,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0945,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Mid,FullTime
-U0946,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Mid,FullTime
-U0947,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0948,Doctor,Khoa_Noi,CN_HCM,Doctor,Yes,Junior,FullTime
-U0949,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0950,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0951,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0952,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0953,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0954,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Junior,FullTime
-U0955,Doctor,Khoa_Ngoai,CN_HCM,Doctor,Yes,Senior,FullTime
-U0956,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Junior,FullTime
-U0957,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0958,HR,Phong_NhanSu,CN_HCM,HR,No,Junior,FullTime
-U0959,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0960,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0961,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Junior,FullTime
-U0962,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0963,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Mid,FullTime
-U0964,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0965,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0966,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0967,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Senior,FullTime
-U0968,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Senior,FullTime
-U0969,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0970,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0971,HR,Phong_NhanSu,CN_HN,HR,No,Senior,FullTime
-U0972,Receptionist,Phong_TiepDon,CN_HCM,Receptionist,No,Junior,FullTime
-U0973,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Mid,FullTime
-U0974,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Mid,FullTime
-U0975,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Junior,FullTime
-U0976,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Mid,FullTime
-U0977,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0978,Nurse,Khoa_Noi,CN_HCM,Nurse,Yes,Junior,FullTime
-U0979,Nurse,Khoa_Noi,CN_HN,Nurse,Yes,Senior,FullTime
-U0980,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0981,HR,Phong_NhanSu,CN_HCM,HR,No,Mid,FullTime
-U0982,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0983,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Mid,FullTime
-U0984,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0985,Doctor,Khoa_Ngoai,CN_HN,Doctor,Yes,Mid,FullTime
-U0986,Cashier,Phong_TaiChinh,CN_HN,Cashier,No,Senior,FullTime
-U0987,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0988,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0989,Cashier,Phong_TaiChinh,CN_HCM,Cashier,No,Senior,FullTime
-U0990,Nurse,Khoa_Ngoai,CN_HN,Nurse,Yes,Mid,FullTime
-U0991,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0992,Receptionist,Phong_TiepDon,CN_HN,Receptionist,No,Senior,FullTime
-U0993,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0994,HR,Phong_NhanSu,CN_HCM,HR,No,Senior,FullTime
-U0995,Nurse,Khoa_Ngoai,CN_HCM,Nurse,Yes,Junior,FullTime
-U0996,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
-U0997,HR,Phong_NhanSu,CN_HN,HR,No,Mid,FullTime
-U0998,Doctor,Khoa_Noi,CN_HN,Doctor,Yes,Senior,FullTime
-U0999,HR,Phong_NhanSu,CN_HN,HR,No,Junior,FullTime
+id,user_id,username,password,email,department,branch,position,has_license,seniority,employment_type,enabled,account_non_expired,account_non_locked,credentials_non_expired,role_id,created_at,updated_at
+1,U0000,u0000,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0000@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+2,U0001,u0001,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0001@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+3,U0002,u0002,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0002@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+4,U0003,u0003,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0003@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+5,U0004,u0004,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0004@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+6,U0005,u0005,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0005@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+7,U0006,u0006,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0006@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+8,U0007,u0007,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0007@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+9,U0008,u0008,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0008@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+10,U0009,u0009,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0009@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+11,U0010,u0010,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0010@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+12,U0011,u0011,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0011@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+13,U0012,u0012,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0012@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+14,U0013,u0013,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0013@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+15,U0014,u0014,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0014@hospital.com,IT,CN_HN,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+16,U0015,u0015,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0015@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+17,ADMIN001,admin,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,admin@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-14 15:02:31.276033,2026-01-14 15:02:31.276033
+18,U0016,u0016,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0016@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.089299,2026-01-15 21:19:51.089299
+19,U0017,u0017,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0017@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.089299,2026-01-15 21:19:51.089299
+20,U0018,u0018,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0018@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.089299,2026-01-15 21:19:51.089299
+21,U0019,u0019,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0019@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.089299,2026-01-15 21:19:51.089299
+22,U0020,u0020,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0020@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+23,U0021,u0021,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0021@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+24,U0022,u0022,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0022@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+25,U0023,u0023,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0023@hospital.com,Khoa_Noi,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+26,U0024,u0024,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0024@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+27,U0025,u0025,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0025@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+28,U0026,u0026,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0026@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+29,U0027,u0027,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0027@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+30,U0028,u0028,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0028@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+31,U0029,u0029,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0029@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+32,U0030,u0030,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0030@hospital.com,IT,CN_HN,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.090296,2026-01-15 21:19:51.090296
+33,U0031,u0031,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0031@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+34,U0032,u0032,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0032@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+35,U0033,u0033,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0033@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+36,U0034,u0034,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0034@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+37,U0035,u0035,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0035@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+38,U0036,u0036,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0036@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+39,U0037,u0037,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0037@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+40,U0038,u0038,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0038@hospital.com,IT,CN_HCM,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+41,U0039,u0039,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0039@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+42,U0040,u0040,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0040@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+43,U0041,u0041,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0041@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+44,U0042,u0042,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0042@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+45,U0043,u0043,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0043@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+46,U0044,u0044,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0044@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.091295,2026-01-15 21:19:51.091295
+47,U0045,u0045,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0045@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+48,U0046,u0046,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0046@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+49,U0047,u0047,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0047@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+50,U0048,u0048,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0048@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+51,U0049,u0049,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0049@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+52,U0050,u0050,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0050@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+53,U0051,u0051,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0051@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+54,U0052,u0052,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0052@hospital.com,IT,CN_HN,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+55,U0053,u0053,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0053@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+56,U0054,u0054,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0054@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+57,U0055,u0055,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0055@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+58,U0056,u0056,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0056@hospital.com,Security,CN_HN,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+59,U0057,u0057,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0057@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.092295,2026-01-15 21:19:51.092295
+60,U0058,u0058,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0058@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+61,U0059,u0059,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0059@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+62,U0060,u0060,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0060@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+63,U0061,u0061,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0061@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+64,U0062,u0062,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0062@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+65,U0063,u0063,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0063@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+66,U0064,u0064,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0064@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+67,U0065,u0065,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0065@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+68,U0066,u0066,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0066@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+69,U0067,u0067,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0067@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+70,U0068,u0068,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0068@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+71,U0069,u0069,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0069@hospital.com,IT,CN_HN,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+72,U0070,u0070,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0070@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.093295,2026-01-15 21:19:51.093295
+73,U0071,u0071,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0071@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+74,U0072,u0072,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0072@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+75,U0073,u0073,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0073@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+76,U0074,u0074,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0074@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+77,U0075,u0075,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0075@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+78,U0076,u0076,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0076@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+79,U0077,u0077,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0077@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+80,U0078,u0078,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0078@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+81,U0079,u0079,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0079@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+82,U0080,u0080,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0080@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+83,U0081,u0081,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0081@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+84,U0082,u0082,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0082@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+85,U0083,u0083,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0083@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.094297,2026-01-15 21:19:51.094297
+86,U0084,u0084,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0084@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+87,U0085,u0085,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0085@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+88,U0086,u0086,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0086@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+89,U0087,u0087,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0087@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+90,U0088,u0088,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0088@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+91,U0089,u0089,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0089@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+92,U0090,u0090,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0090@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+93,U0091,u0091,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0091@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+94,U0092,u0092,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0092@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+95,U0093,u0093,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0093@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+96,U0094,u0094,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0094@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.095296,2026-01-15 21:19:51.095296
+97,U0095,u0095,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0095@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+98,U0096,u0096,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0096@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+99,U0097,u0097,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0097@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+100,U0098,u0098,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0098@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+101,U0099,u0099,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0099@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+102,U0100,u0100,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0100@hospital.com,IT,CN_HN,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+103,U0101,u0101,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0101@hospital.com,Khoa_Noi,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+104,U0102,u0102,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0102@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+105,U0103,u0103,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0103@hospital.com,Khoa_Noi,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+106,U0104,u0104,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0104@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+107,U0105,u0105,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0105@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+108,U0106,u0106,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0106@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+109,U0107,u0107,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0107@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.096297,2026-01-15 21:19:51.096297
+110,U0108,u0108,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0108@hospital.com,IT,CN_HCM,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+111,U0109,u0109,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0109@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+112,U0110,u0110,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0110@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+113,U0111,u0111,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0111@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+114,U0112,u0112,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0112@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+115,U0113,u0113,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0113@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+116,U0114,u0114,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0114@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+117,U0115,u0115,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0115@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+118,U0116,u0116,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0116@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+119,U0117,u0117,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0117@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+120,U0118,u0118,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0118@hospital.com,Khoa_Noi,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+121,U0119,u0119,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0119@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.097295,2026-01-15 21:19:51.097295
+122,U0120,u0120,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0120@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+123,U0121,u0121,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0121@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+124,U0122,u0122,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0122@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+125,U0123,u0123,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0123@hospital.com,Security,CN_HN,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+126,U0124,u0124,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0124@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+127,U0125,u0125,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0125@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+128,U0126,u0126,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0126@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+129,U0127,u0127,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0127@hospital.com,IT,CN_HCM,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+130,U0128,u0128,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0128@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+131,U0129,u0129,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0129@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+132,U0130,u0130,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0130@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+133,U0131,u0131,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0131@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+134,U0132,u0132,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0132@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+135,U0133,u0133,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0133@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.098297,2026-01-15 21:19:51.098297
+136,U0134,u0134,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0134@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+137,U0135,u0135,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0135@hospital.com,IT,CN_HN,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+138,U0136,u0136,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0136@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+139,U0137,u0137,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0137@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+140,U0138,u0138,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0138@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+141,U0139,u0139,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0139@hospital.com,Khoa_Noi,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+142,U0140,u0140,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0140@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+143,U0141,u0141,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0141@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+144,U0142,u0142,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0142@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+145,U0143,u0143,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0143@hospital.com,IT,CN_HCM,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+146,U0144,u0144,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0144@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+147,U0145,u0145,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0145@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+148,U0146,u0146,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0146@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.099296,2026-01-15 21:19:51.099296
+149,U0147,u0147,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0147@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+150,U0148,u0148,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0148@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+151,U0149,u0149,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0149@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+152,U0150,u0150,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0150@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+153,U0151,u0151,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0151@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+154,U0152,u0152,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0152@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+155,U0153,u0153,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0153@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+156,U0154,u0154,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0154@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+157,U0155,u0155,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0155@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+158,U0156,u0156,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0156@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+159,U0157,u0157,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0157@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+160,U0158,u0158,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0158@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+161,U0159,u0159,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0159@hospital.com,Security,CN_HN,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.100295,2026-01-15 21:19:51.100295
+162,U0160,u0160,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0160@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+163,U0161,u0161,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0161@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+164,U0162,u0162,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0162@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+165,U0163,u0163,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0163@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+166,U0164,u0164,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0164@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+167,U0165,u0165,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0165@hospital.com,IT,CN_HN,ITAdmin,False,Mid,FullTime,True,True,True,True,7,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+168,U0166,u0166,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0166@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+169,U0167,u0167,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0167@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+170,U0168,u0168,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0168@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+171,U0169,u0169,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0169@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+172,U0170,u0170,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0170@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+173,U0171,u0171,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0171@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.101296,2026-01-15 21:19:51.101296
+174,U0172,u0172,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0172@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+175,U0173,u0173,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0173@hospital.com,IT,CN_HCM,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+176,U0174,u0174,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0174@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+177,U0175,u0175,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0175@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+178,U0176,u0176,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0176@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+179,U0177,u0177,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0177@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+180,U0178,u0178,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0178@hospital.com,IT,CN_HN,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+181,U0179,u0179,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0179@hospital.com,Security,CN_HCM,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+182,U0180,u0180,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0180@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+183,U0181,u0181,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0181@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+184,U0182,u0182,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0182@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+185,U0183,u0183,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0183@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+186,U0184,u0184,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0184@hospital.com,IT,CN_HN,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.102297,2026-01-15 21:19:51.102297
+187,U0185,u0185,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0185@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+188,U0186,u0186,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0186@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+189,U0187,u0187,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0187@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+190,U0188,u0188,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0188@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+191,U0189,u0189,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0189@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+192,U0190,u0190,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0190@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+193,U0191,u0191,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0191@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+194,U0192,u0192,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0192@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+195,U0193,u0193,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0193@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+196,U0194,u0194,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0194@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+197,U0195,u0195,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0195@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+198,U0196,u0196,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0196@hospital.com,Security,CN_HN,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+199,U0197,u0197,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0197@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+200,U0198,u0198,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0198@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.103297,2026-01-15 21:19:51.103297
+201,U0199,u0199,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0199@hospital.com,Khoa_Noi,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+202,U0200,u0200,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0200@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+203,U0201,u0201,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0201@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+204,U0202,u0202,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0202@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+205,U0203,u0203,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0203@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+206,U0204,u0204,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0204@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+207,U0205,u0205,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0205@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+208,U0206,u0206,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0206@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+209,U0207,u0207,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0207@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+210,U0208,u0208,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0208@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+211,U0209,u0209,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0209@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+212,U0210,u0210,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0210@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+213,U0211,u0211,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0211@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.104295,2026-01-15 21:19:51.104295
+214,U0212,u0212,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0212@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+215,U0213,u0213,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0213@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+216,U0214,u0214,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0214@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+217,U0215,u0215,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0215@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+218,U0216,u0216,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0216@hospital.com,IT,CN_HCM,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+219,U0217,u0217,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0217@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+220,U0218,u0218,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0218@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+221,U0219,u0219,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0219@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+222,U0220,u0220,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0220@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+223,U0221,u0221,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0221@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+224,U0222,u0222,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0222@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+225,U0223,u0223,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0223@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+226,U0224,u0224,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0224@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+227,U0225,u0225,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0225@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.105295,2026-01-15 21:19:51.105295
+228,U0226,u0226,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0226@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+229,U0227,u0227,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0227@hospital.com,IT,CN_HN,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+230,U0228,u0228,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0228@hospital.com,IT,CN_HCM,ITAdmin,False,Mid,FullTime,True,True,True,True,7,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+231,U0229,u0229,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0229@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+232,U0230,u0230,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0230@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+233,U0231,u0231,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0231@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+234,U0232,u0232,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0232@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+235,U0233,u0233,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0233@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+236,U0234,u0234,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0234@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+237,U0235,u0235,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0235@hospital.com,IT,CN_HCM,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+238,U0236,u0236,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0236@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+239,U0237,u0237,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0237@hospital.com,Security,CN_HN,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+240,U0238,u0238,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0238@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.106295,2026-01-15 21:19:51.106295
+241,U0239,u0239,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0239@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+242,U0240,u0240,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0240@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+243,U0241,u0241,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0241@hospital.com,IT,CN_HCM,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+244,U0242,u0242,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0242@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+245,U0243,u0243,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0243@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+246,U0244,u0244,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0244@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+247,U0245,u0245,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0245@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+248,U0246,u0246,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0246@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+249,U0247,u0247,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0247@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+250,U0248,u0248,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0248@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+251,U0249,u0249,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0249@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+252,U0250,u0250,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0250@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+253,U0251,u0251,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0251@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+254,U0252,u0252,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0252@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.107295,2026-01-15 21:19:51.107295
+255,U0253,u0253,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0253@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+256,U0254,u0254,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0254@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+257,U0255,u0255,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0255@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+258,U0256,u0256,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0256@hospital.com,Khoa_Noi,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+259,U0257,u0257,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0257@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+260,U0258,u0258,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0258@hospital.com,IT,CN_HN,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+261,U0259,u0259,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0259@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+262,U0260,u0260,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0260@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+263,U0261,u0261,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0261@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+264,U0262,u0262,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0262@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+265,U0263,u0263,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0263@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+266,U0264,u0264,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0264@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+267,U0265,u0265,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0265@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.108297,2026-01-15 21:19:51.108297
+268,U0266,u0266,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0266@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+269,U0267,u0267,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0267@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+270,U0268,u0268,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0268@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+271,U0269,u0269,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0269@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+272,U0270,u0270,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0270@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+273,U0271,u0271,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0271@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+274,U0272,u0272,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0272@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+275,U0273,u0273,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0273@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+276,U0274,u0274,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0274@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+277,U0275,u0275,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0275@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+278,U0276,u0276,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0276@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+279,U0277,u0277,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0277@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+280,U0278,u0278,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0278@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.109296,2026-01-15 21:19:51.109296
+281,U0279,u0279,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0279@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+282,U0280,u0280,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0280@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+283,U0281,u0281,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0281@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+284,U0282,u0282,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0282@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+285,U0283,u0283,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0283@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+286,U0284,u0284,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0284@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+287,U0285,u0285,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0285@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+288,U0286,u0286,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0286@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+289,U0287,u0287,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0287@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+290,U0288,u0288,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0288@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+291,U0289,u0289,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0289@hospital.com,IT,CN_HN,ITAdmin,False,Mid,FullTime,True,True,True,True,7,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+292,U0290,u0290,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0290@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+293,U0291,u0291,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0291@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+294,U0292,u0292,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0292@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.110295,2026-01-15 21:19:51.110295
+295,U0293,u0293,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0293@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+296,U0294,u0294,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0294@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+297,U0295,u0295,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0295@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+298,U0296,u0296,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0296@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+299,U0297,u0297,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0297@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+300,U0298,u0298,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0298@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+301,U0299,u0299,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0299@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+302,U0300,u0300,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0300@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+303,U0301,u0301,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0301@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+304,U0302,u0302,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0302@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+305,U0303,u0303,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0303@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+306,U0304,u0304,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0304@hospital.com,IT,CN_HCM,ITAdmin,False,Mid,FullTime,True,True,True,True,7,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+307,U0305,u0305,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0305@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.111295,2026-01-15 21:19:51.111295
+308,U0306,u0306,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0306@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+309,U0307,u0307,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0307@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+310,U0308,u0308,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0308@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+311,U0309,u0309,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0309@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+312,U0310,u0310,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0310@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+313,U0311,u0311,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0311@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+314,U0312,u0312,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0312@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+315,U0313,u0313,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0313@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+316,U0314,u0314,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0314@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+317,U0315,u0315,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0315@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+318,U0316,u0316,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0316@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+319,U0317,u0317,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0317@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+320,U0318,u0318,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0318@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.112295,2026-01-15 21:19:51.112295
+321,U0319,u0319,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0319@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+322,U0320,u0320,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0320@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+323,U0321,u0321,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0321@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+324,U0322,u0322,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0322@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+325,U0323,u0323,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0323@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+326,U0324,u0324,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0324@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+327,U0325,u0325,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0325@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+328,U0326,u0326,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0326@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+329,U0327,u0327,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0327@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+330,U0328,u0328,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0328@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+331,U0329,u0329,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0329@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+332,U0330,u0330,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0330@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+333,U0331,u0331,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0331@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.113297,2026-01-15 21:19:51.113297
+334,U0332,u0332,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0332@hospital.com,Khoa_Noi,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+335,U0333,u0333,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0333@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+336,U0334,u0334,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0334@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+337,U0335,u0335,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0335@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+338,U0336,u0336,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0336@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+339,U0337,u0337,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0337@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+340,U0338,u0338,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0338@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+341,U0339,u0339,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0339@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+342,U0340,u0340,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0340@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+343,U0341,u0341,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0341@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+344,U0342,u0342,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0342@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+345,U0343,u0343,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0343@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+346,U0344,u0344,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0344@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.114296,2026-01-15 21:19:51.114296
+347,U0345,u0345,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0345@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+348,U0346,u0346,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0346@hospital.com,Phong_NhanSu,CN_HN,HR,False,Senior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+349,U0347,u0347,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0347@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+350,U0348,u0348,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0348@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+351,U0349,u0349,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0349@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+352,U0350,u0350,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0350@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+353,U0351,u0351,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0351@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+354,U0352,u0352,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0352@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+355,U0353,u0353,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0353@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+356,U0354,u0354,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0354@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+357,U0355,u0355,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0355@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+358,U0356,u0356,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0356@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+359,U0357,u0357,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0357@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+360,U0358,u0358,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0358@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.115295,2026-01-15 21:19:51.115295
+361,U0359,u0359,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0359@hospital.com,IT,CN_HN,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.116296,2026-01-15 21:19:51.116296
+362,U0360,u0360,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0360@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.116358,2026-01-15 21:19:51.116358
+363,U0361,u0361,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0361@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.116358,2026-01-15 21:19:51.116358
+364,U0362,u0362,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0362@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.116358,2026-01-15 21:19:51.116358
+365,U0363,u0363,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0363@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.116358,2026-01-15 21:19:51.116358
+366,U0364,u0364,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0364@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.116358,2026-01-15 21:19:51.116358
+367,U0365,u0365,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0365@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.116358,2026-01-15 21:19:51.116358
+368,U0366,u0366,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0366@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.116888,2026-01-15 21:19:51.116888
+369,U0367,u0367,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0367@hospital.com,Security,CN_HN,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.116888,2026-01-15 21:19:51.116888
+370,U0368,u0368,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0368@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.116888,2026-01-15 21:19:51.116888
+371,U0369,u0369,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0369@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.116888,2026-01-15 21:19:51.116888
+372,U0370,u0370,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0370@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.116888,2026-01-15 21:19:51.116888
+373,U0371,u0371,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0371@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.116888,2026-01-15 21:19:51.116888
+374,U0372,u0372,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0372@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.116888,2026-01-15 21:19:51.116888
+375,U0373,u0373,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0373@hospital.com,IT,CN_HN,ITAdmin,False,Mid,FullTime,True,True,True,True,7,2026-01-15 21:19:51.117394,2026-01-15 21:19:51.117394
+376,U0374,u0374,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0374@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.117419,2026-01-15 21:19:51.117419
+377,U0375,u0375,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0375@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.117419,2026-01-15 21:19:51.117419
+378,U0376,u0376,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0376@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.117419,2026-01-15 21:19:51.117419
+379,U0377,u0377,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0377@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.117419,2026-01-15 21:19:51.117419
+380,U0378,u0378,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0378@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.117419,2026-01-15 21:19:51.117419
+381,U0379,u0379,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0379@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.117419,2026-01-15 21:19:51.117419
+382,U0380,u0380,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0380@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.117940,2026-01-15 21:19:51.117940
+383,U0381,u0381,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0381@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.117940,2026-01-15 21:19:51.117940
+384,U0382,u0382,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0382@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.117940,2026-01-15 21:19:51.117940
+385,U0383,u0383,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0383@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.117940,2026-01-15 21:19:51.117940
+386,U0384,u0384,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0384@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.117940,2026-01-15 21:19:51.117940
+387,U0385,u0385,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0385@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.117940,2026-01-15 21:19:51.117940
+388,U0386,u0386,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0386@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.117940,2026-01-15 21:19:51.117940
+389,U0387,u0387,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0387@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.118445,2026-01-15 21:19:51.118445
+390,U0388,u0388,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0388@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.118467,2026-01-15 21:19:51.118467
+391,U0389,u0389,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0389@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.118467,2026-01-15 21:19:51.118467
+392,U0390,u0390,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0390@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.118467,2026-01-15 21:19:51.118467
+393,U0391,u0391,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0391@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.118467,2026-01-15 21:19:51.118467
+394,U0392,u0392,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0392@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.118467,2026-01-15 21:19:51.118467
+395,U0393,u0393,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0393@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.118467,2026-01-15 21:19:51.118467
+396,U0394,u0394,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0394@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.118980,2026-01-15 21:19:51.118988
+397,U0395,u0395,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0395@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.118988,2026-01-15 21:19:51.118988
+398,U0396,u0396,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0396@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.118988,2026-01-15 21:19:51.118988
+399,U0397,u0397,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0397@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.118988,2026-01-15 21:19:51.118988
+400,U0398,u0398,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0398@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.118988,2026-01-15 21:19:51.118988
+401,U0399,u0399,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0399@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.118988,2026-01-15 21:19:51.118988
+402,U0400,u0400,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0400@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.118988,2026-01-15 21:19:51.118988
+403,U0401,u0401,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0401@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.119504,2026-01-15 21:19:51.119512
+404,U0402,u0402,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0402@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.119512,2026-01-15 21:19:51.119512
+405,U0403,u0403,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0403@hospital.com,IT,CN_HN,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.119512,2026-01-15 21:19:51.119512
+406,U0404,u0404,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0404@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.119512,2026-01-15 21:19:51.119512
+407,U0405,u0405,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0405@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.119512,2026-01-15 21:19:51.119512
+408,U0406,u0406,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0406@hospital.com,Security,CN_HCM,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.119512,2026-01-15 21:19:51.119512
+409,U0407,u0407,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0407@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.119512,2026-01-15 21:19:51.119512
+410,U0408,u0408,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0408@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.120033,2026-01-15 21:19:51.120033
+411,U0409,u0409,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0409@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.120033,2026-01-15 21:19:51.120033
+412,U0410,u0410,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0410@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.120033,2026-01-15 21:19:51.120033
+413,U0411,u0411,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0411@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.120033,2026-01-15 21:19:51.120033
+414,U0412,u0412,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0412@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.120033,2026-01-15 21:19:51.120033
+415,U0413,u0413,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0413@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.120033,2026-01-15 21:19:51.120033
+416,U0414,u0414,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0414@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.120033,2026-01-15 21:19:51.120033
+417,U0415,u0415,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0415@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.120562,2026-01-15 21:19:51.120568
+418,U0416,u0416,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0416@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.120568,2026-01-15 21:19:51.120568
+419,U0417,u0417,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0417@hospital.com,Phong_NhanSu,CN_HN,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.120568,2026-01-15 21:19:51.120568
+420,U0418,u0418,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0418@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.120568,2026-01-15 21:19:51.120568
+421,U0419,u0419,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0419@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.120568,2026-01-15 21:19:51.120568
+422,U0420,u0420,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0420@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.120568,2026-01-15 21:19:51.120568
+423,U0421,u0421,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0421@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.120568,2026-01-15 21:19:51.120568
+424,U0422,u0422,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0422@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.121087,2026-01-15 21:19:51.121087
+425,U0423,u0423,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0423@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.121095,2026-01-15 21:19:51.121095
+426,U0424,u0424,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0424@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.121095,2026-01-15 21:19:51.121095
+427,U0425,u0425,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0425@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.121095,2026-01-15 21:19:51.121095
+428,U0426,u0426,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0426@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.121095,2026-01-15 21:19:51.121095
+429,U0427,u0427,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0427@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.121095,2026-01-15 21:19:51.121095
+430,U0428,u0428,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0428@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.121095,2026-01-15 21:19:51.121095
+431,U0429,u0429,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0429@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.121615,2026-01-15 21:19:51.121615
+432,U0430,u0430,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0430@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.121615,2026-01-15 21:19:51.121615
+433,U0431,u0431,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0431@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.121615,2026-01-15 21:19:51.121615
+434,U0432,u0432,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0432@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.121615,2026-01-15 21:19:51.121615
+435,U0433,u0433,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0433@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.121615,2026-01-15 21:19:51.121615
+436,U0434,u0434,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0434@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.121615,2026-01-15 21:19:51.121615
+437,U0435,u0435,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0435@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.121615,2026-01-15 21:19:51.121615
+438,U0436,u0436,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0436@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.122138,2026-01-15 21:19:51.122138
+439,U0437,u0437,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0437@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.122138,2026-01-15 21:19:51.122138
+440,U0438,u0438,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0438@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.122138,2026-01-15 21:19:51.122138
+441,U0439,u0439,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0439@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.122138,2026-01-15 21:19:51.122138
+442,U0440,u0440,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0440@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.122138,2026-01-15 21:19:51.122138
+443,U0441,u0441,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0441@hospital.com,Khoa_Noi,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.122138,2026-01-15 21:19:51.122138
+444,U0442,u0442,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0442@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.122138,2026-01-15 21:19:51.122138
+445,U0443,u0443,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0443@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.122659,2026-01-15 21:19:51.122659
+446,U0444,u0444,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0444@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.122659,2026-01-15 21:19:51.122659
+447,U0445,u0445,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0445@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.122659,2026-01-15 21:19:51.122659
+448,U0446,u0446,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0446@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.122659,2026-01-15 21:19:51.122659
+449,U0447,u0447,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0447@hospital.com,Security,CN_HN,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.122659,2026-01-15 21:19:51.122659
+450,U0448,u0448,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0448@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.122659,2026-01-15 21:19:51.122659
+451,U0449,u0449,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0449@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.122659,2026-01-15 21:19:51.122659
+452,U0450,u0450,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0450@hospital.com,Security,CN_HN,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.123178,2026-01-15 21:19:51.123178
+453,U0451,u0451,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0451@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.123178,2026-01-15 21:19:51.123178
+454,U0452,u0452,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0452@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.123178,2026-01-15 21:19:51.123178
+455,U0453,u0453,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0453@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Mid,FullTime,True,True,True,True,3,2026-01-15 21:19:51.123178,2026-01-15 21:19:51.123178
+456,U0454,u0454,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0454@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.123178,2026-01-15 21:19:51.123178
+457,U0455,u0455,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0455@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.123178,2026-01-15 21:19:51.123178
+458,U0456,u0456,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0456@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.123178,2026-01-15 21:19:51.123178
+459,U0457,u0457,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0457@hospital.com,Phong_TiepDon,CN_HCM,Receptionist,False,Junior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.123697,2026-01-15 21:19:51.123697
+460,U0458,u0458,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0458@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.123697,2026-01-15 21:19:51.123697
+461,U0459,u0459,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0459@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.123697,2026-01-15 21:19:51.123697
+462,U0460,u0460,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0460@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.123697,2026-01-15 21:19:51.123697
+463,U0461,u0461,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0461@hospital.com,Khoa_Ngoai,CN_HCM,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.123697,2026-01-15 21:19:51.123697
+464,U0462,u0462,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0462@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Junior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.123697,2026-01-15 21:19:51.123697
+465,U0463,u0463,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0463@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.123697,2026-01-15 21:19:51.123697
+466,U0464,u0464,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0464@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.124217,2026-01-15 21:19:51.124217
+467,U0465,u0465,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0465@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.124217,2026-01-15 21:19:51.124217
+468,U0466,u0466,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0466@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.124217,2026-01-15 21:19:51.124217
+469,U0467,u0467,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0467@hospital.com,Khoa_Noi,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.124217,2026-01-15 21:19:51.124217
+470,U0468,u0468,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0468@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.124217,2026-01-15 21:19:51.124217
+471,U0469,u0469,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0469@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.124217,2026-01-15 21:19:51.124217
+472,U0470,u0470,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0470@hospital.com,Phong_TiepDon,CN_HN,Receptionist,False,Senior,FullTime,True,True,True,True,3,2026-01-15 21:19:51.124217,2026-01-15 21:19:51.124217
+473,U0471,u0471,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0471@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.124736,2026-01-15 21:19:51.124736
+474,U0472,u0472,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0472@hospital.com,IT,CN_HCM,ITAdmin,False,Senior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.124736,2026-01-15 21:19:51.124736
+475,U0473,u0473,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0473@hospital.com,Phong_TaiChinh,CN_HCM,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.124736,2026-01-15 21:19:51.124736
+476,U0474,u0474,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0474@hospital.com,Khoa_Noi,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.124736,2026-01-15 21:19:51.124736
+477,U0475,u0475,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0475@hospital.com,Phong_NhanSu,CN_HN,HR,False,Junior,FullTime,True,True,True,True,5,2026-01-15 21:19:51.124736,2026-01-15 21:19:51.124736
+478,U0476,u0476,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0476@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.124736,2026-01-15 21:19:51.124736
+479,U0477,u0477,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0477@hospital.com,Khoa_Ngoai,CN_HCM,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.124736,2026-01-15 21:19:51.124736
+480,U0478,u0478,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0478@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.125255,2026-01-15 21:19:51.125255
+481,U0479,u0479,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0479@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.125255,2026-01-15 21:19:51.125255
+482,U0480,u0480,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0480@hospital.com,IT,CN_HCM,ITAdmin,False,Mid,FullTime,True,True,True,True,7,2026-01-15 21:19:51.125255,2026-01-15 21:19:51.125255
+483,U0481,u0481,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0481@hospital.com,Security,CN_HCM,SecurityAdmin,False,Junior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.125255,2026-01-15 21:19:51.125255
+484,U0482,u0482,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0482@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.125255,2026-01-15 21:19:51.125255
+485,U0483,u0483,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0483@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.125255,2026-01-15 21:19:51.125255
+486,U0484,u0484,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0484@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.125255,2026-01-15 21:19:51.125255
+487,U0485,u0485,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0485@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.125779,2026-01-15 21:19:51.125779
+488,U0486,u0486,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0486@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Senior,FullTime,True,True,True,True,4,2026-01-15 21:19:51.125779,2026-01-15 21:19:51.125779
+489,U0487,u0487,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0487@hospital.com,Security,CN_HN,SecurityAdmin,False,Mid,FullTime,True,True,True,True,8,2026-01-15 21:19:51.125779,2026-01-15 21:19:51.125779
+490,U0488,u0488,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0488@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.125779,2026-01-15 21:19:51.125779
+491,U0489,u0489,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0489@hospital.com,Phong_TaiChinh,CN_HN,Cashier,False,Mid,FullTime,True,True,True,True,4,2026-01-15 21:19:51.125779,2026-01-15 21:19:51.125779
+492,U0490,u0490,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0490@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.125779,2026-01-15 21:19:51.125779
+493,U0491,u0491,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0491@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.125779,2026-01-15 21:19:51.125779
+494,U0492,u0492,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0492@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.126299,2026-01-15 21:19:51.126299
+495,U0493,u0493,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0493@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.126299,2026-01-15 21:19:51.126299
+496,U0494,u0494,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0494@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.126299,2026-01-15 21:19:51.126299
+497,U0495,u0495,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0495@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.126299,2026-01-15 21:19:51.126299
+498,U0496,u0496,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0496@hospital.com,Khoa_Noi,CN_HN,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.126299,2026-01-15 21:19:51.126299
+499,U0497,u0497,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0497@hospital.com,Khoa_Noi,CN_HCM,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.126299,2026-01-15 21:19:51.126299
+500,U0498,u0498,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0498@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.126299,2026-01-15 21:19:51.126299
+501,U0499,u0499,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0499@hospital.com,IT,CN_HCM,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.126824,2026-01-15 21:19:51.126824
+502,U0500,u0500,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0500@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.126824,2026-01-15 21:19:51.126824
+503,U0501,u0501,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0501@hospital.com,Khoa_Noi,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.126824,2026-01-15 21:19:51.126824
+504,U0502,u0502,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0502@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.126824,2026-01-15 21:19:51.126824
+505,U0503,u0503,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0503@hospital.com,Phong_NhanSu,CN_HCM,HR,False,Mid,FullTime,True,True,True,True,5,2026-01-15 21:19:51.126824,2026-01-15 21:19:51.126824
+506,U0504,u0504,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0504@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Junior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.126824,2026-01-15 21:19:51.126824
+507,U0505,u0505,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0505@hospital.com,Khoa_Ngoai,CN_HN,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.126824,2026-01-15 21:19:51.126824
+508,U0506,u0506,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0506@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Junior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.127358,2026-01-15 21:19:51.127358
+509,U0507,u0507,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0507@hospital.com,IT,CN_HN,ITAdmin,False,Junior,FullTime,True,True,True,True,7,2026-01-15 21:19:51.127358,2026-01-15 21:19:51.127358
+510,U0508,u0508,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0508@hospital.com,Security,CN_HCM,SecurityAdmin,False,Senior,FullTime,True,True,True,True,8,2026-01-15 21:19:51.127358,2026-01-15 21:19:51.127358
+511,U0509,u0509,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0509@hospital.com,Khoa_Noi,CN_HCM,Manager,False,Senior,FullTime,True,True,True,True,6,2026-01-15 21:19:51.127358,2026-01-15 21:19:51.127358
+512,U0510,u0510,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0510@hospital.com,Khoa_Ngoai,CN_HN,Manager,False,Mid,FullTime,True,True,True,True,6,2026-01-15 21:19:51.127358,2026-01-15 21:19:51.127358
+513,U0511,u0511,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0511@hospital.com,Khoa_Noi,CN_HN,Nurse,True,Junior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.127358,2026-01-15 21:19:51.127358
+514,U0512,u0512,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0512@hospital.com,Khoa_Ngoai,CN_HCM,Doctor,True,Mid,FullTime,True,True,True,True,1,2026-01-15 21:19:51.127358,2026-01-15 21:19:51.127358
+515,U0513,u0513,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0513@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Senior,FullTime,True,True,True,True,2,2026-01-15 21:19:51.127872,2026-01-15 21:19:51.127872
+516,U0514,u0514,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0514@hospital.com,Khoa_Noi,CN_HCM,Doctor,True,Senior,FullTime,True,True,True,True,1,2026-01-15 21:19:51.127872,2026-01-15 21:19:51.127872
+517,U0515,u0515,$2a$10$gM1cGBNN.RrUuQ1OFTyR4.6mESyeS/13xlIWwJPtH8FjrooGnhYMu,u0515@hospital.com,Khoa_Ngoai,CN_HN,Nurse,True,Mid,FullTime,True,True,True,True,2,2026-01-15 21:19:51.127872,2026-01-15 21:19:51.127872

@@ -17,6 +17,55 @@ print("Đang tải dữ liệu...")
 
 users = pd.read_csv("users.csv")
 permissions = pd.read_csv("permissions.csv")
+if "user_id" not in permissions.columns:
+    roles = pd.read_csv("roles.csv")
+    role_permissions = pd.read_csv("role_permissions.csv")
+    user_additional_permissions = pd.read_csv("user_additional_permissions.csv")
+
+    role_map = roles.set_index("id")["name"]
+    if "role" not in users.columns:
+        users = users.copy()
+        users["role"] = users["role_id"].map(role_map)
+
+    if "license" not in users.columns:
+        if "has_license" in users.columns:
+            users = users.copy()
+            users["license"] = users["has_license"].map(
+                lambda v: "Yes" if str(v).strip().lower() in {"true", "1", "yes"} else "No"
+            )
+        else:
+            users = users.copy()
+            users["license"] = "No"
+
+if "has_license_binary" not in users.columns:
+    if "has_license" in users.columns:
+        users = users.copy()
+        users["has_license_binary"] = users["has_license"].map(
+            lambda v: 1 if str(v).strip().lower() in {"true", "1", "yes"} else 0
+        )
+    else:
+        users = users.copy()
+        users["has_license_binary"] = users["license"].map(lambda v: 1 if str(v).strip().lower() == "yes" else 0)
+
+    role_assigned = (
+        users[["id", "user_id", "role_id"]]
+        .merge(role_permissions, on="role_id", how="left")
+        .merge(permissions, left_on="permission_id", right_on="id", how="left")
+    )
+    role_assigned = role_assigned[["user_id", "resource_type", "action", "scope"]]
+
+    if not user_additional_permissions.empty:
+        user_assigned = (
+            user_additional_permissions.rename(columns={"user_id": "user_pk"})
+            .merge(users[["id", "user_id"]].rename(columns={"id": "user_pk"}), on="user_pk", how="left")
+            .merge(permissions, left_on="permission_id", right_on="id", how="left")
+        )
+        user_assigned = user_assigned[["user_id", "resource_type", "action", "scope"]]
+        permissions = pd.concat([role_assigned, user_assigned], ignore_index=True)
+    else:
+        permissions = role_assigned
+
+    permissions = permissions.dropna(subset=["user_id", "resource_type", "action"])
 
 # =========================
 # 2. PREPARE LABELS (MULTI-LABEL)
@@ -48,28 +97,39 @@ print(f"Tổng số nhãn quyền: {len(label_df.columns) - 1}")
 # 3. FEATURE & TARGET
 # =========================
 X = data[
-    ["role", "department", "branch", "license", "seniority"]
+    [
+        "role",
+        "department",
+        "branch",
+        "position",
+        "employment_type",
+        "license",
+        "has_license_binary",
+        "seniority",
+    ]
 ]
 
-Y = data.drop(columns=[
-    "user_id",
-    "role",
-    "department",
-    "branch",
-    "position",
-    "license",
-    "seniority",
-    "employment_type"
-])
+label_columns = [col for col in label_df.columns if col != "user_id"]
+Y = data[label_columns]
 
 # =========================
 # 4. PREPROCESSING
 # =========================
-categorical_features = ["role", "department", "branch", "license", "seniority"]
+categorical_features = [
+    "role",
+    "department",
+    "branch",
+    "position",
+    "employment_type",
+    "license",
+    "seniority",
+]
+numeric_features = ["has_license_binary"]
 
 preprocessor = ColumnTransformer(
     transformers=[
-        ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features)
+        ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features),
+        ("num", "passthrough", numeric_features),
     ]
 )
 
@@ -81,6 +141,9 @@ X_train, X_test, Y_train, Y_test = train_test_split(
     test_size=0.2,
     random_state=42
 )
+
+X_test.to_csv("X_test.csv", index=False)
+Y_test.to_csv("Y_test.csv", index=False)
 
 # =========================
 # 6. MODEL
@@ -129,7 +192,10 @@ new_user = pd.DataFrame([{
     "role": "Doctor",
     "department": "Khoa_Noi",
     "branch": "CN_HN",
+    "position": "Doctor",
+    "employment_type": "FullTime",
     "license": "Yes",
+    "has_license_binary": 1,
     "seniority": "Senior"
 }])
 
@@ -176,7 +242,10 @@ old_profile = {
     "role": "Doctor",
     "department": "Khoa_Noi",
     "branch": "CN_HN",
+    "position": "Doctor",
+    "employment_type": "FullTime",
     "license": "Yes",
+    "has_license_binary": 1,
     "seniority": "Senior"
 }
 
@@ -184,7 +253,10 @@ new_profile = {
     "role": "HR",
     "department": "Phong_NhanSu",
     "branch": "CN_HN",
+    "position": "HR",
+    "employment_type": "FullTime",
     "license": "No",
+    "has_license_binary": 0,
     "seniority": "Senior"
 }
 
@@ -242,6 +314,9 @@ print("\nTình huống: Rightsizing – phát hiện quyền không sử dụng"
 
 # Load audit logs
 audit_logs = pd.read_csv("audit_logs.csv")
+if "success" not in audit_logs.columns and "allowed" in audit_logs.columns:
+    audit_logs = audit_logs.copy()
+    audit_logs["success"] = audit_logs["allowed"]
 
 # Consider last N days
 LOOKBACK_DAYS = 90
@@ -380,7 +455,10 @@ sanity_user = pd.DataFrame([{
     "role": "Doctor",
     "department": "Khoa_Noi",
     "branch": "CN_HN",
+    "position": "Doctor",
+    "employment_type": "FullTime",
     "license": "Yes",
+    "has_license_binary": 1,
     "seniority": "Senior"
 }])
 

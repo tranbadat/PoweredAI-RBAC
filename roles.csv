@@ -1,0 +1,9 @@
+id,name,description,created_at,updated_at
+1,Doctor,Medical doctor with clinical access,2026-01-14 15:02:31.256280,2026-01-14 15:02:31.256280
+2,Nurse,Nurse with limited clinical access,2026-01-14 15:02:31.256280,2026-01-14 15:02:31.256280
+3,Receptionist,Front desk staff for patient registration,2026-01-14 15:02:31.256280,2026-01-14 15:02:31.256280
+4,Cashier,Finance staff for billing,2026-01-14 15:02:31.256280,2026-01-14 15:02:31.256280
+5,HR,Human resources staff,2026-01-14 15:02:31.256280,2026-01-14 15:02:31.256280
+6,Manager,Department manager with reporting access,2026-01-14 15:02:31.256280,2026-01-14 15:02:31.256280
+7,ITAdmin,IT administrator for system management,2026-01-14 15:02:31.256280,2026-01-14 15:02:31.256280
+8,SecurityAdmin,Security administrator for audit and policy,2026-01-14 15:02:31.256280,2026-01-14 15:02:31.256280

@@ -1,0 +1,114 @@
+{
+  "info": {
+    "name": "PoweredAI-RBAC API Tests",
+    "_postman_id": "8b2c8f2f-2f7a-4b3f-8a8a-4b7c6d9b4a11",
+    "description": "Basic test cases for permission recommendation endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000"
+    }
+  ],
+  "item": [
+    {
+      "name": "Recommend New User - Valid",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{baseUrl}}/recommend/new-user",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"role\": \"Doctor\",\n  \"department\": \"Khoa_Noi\",\n  \"branch\": \"CN_HN\",\n  \"license\": \"Yes\",\n  \"seniority\": \"Senior\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Recommend New User - Missing Field",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{baseUrl}}/recommend/new-user",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"role\": \"Nurse\",\n  \"department\": \"Khoa_Noi\",\n  \"branch\": \"CN_HN\",\n  \"license\": \"Yes\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Recommend Job Transfer - Valid",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{baseUrl}}/recommend/job-transfer",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"old_profile\": {\n    \"role\": \"Doctor\",\n    \"department\": \"Khoa_Noi\",\n    \"branch\": \"CN_HN\",\n    \"license\": \"Yes\",\n    \"seniority\": \"Senior\"\n  },\n  \"new_profile\": {\n    \"role\": \"HR\",\n    \"department\": \"Phong_NhanSu\",\n    \"branch\": \"CN_HN\",\n    \"license\": \"No\",\n    \"seniority\": \"Senior\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "name": "Recommend Rightsizing - Default",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{baseUrl}}/recommend/rightsizing",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"lookback_days\": 90\n}"
+        }
+      }
+    },
+    {
+      "name": "Recommend Rightsizing - Short Lookback",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{baseUrl}}/recommend/rightsizing",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"lookback_days\": 7\n}"
+        }
+      }
+    },
+    {
+      "name": "Detect Anomaly - Default",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{baseUrl}}/recommend/anomaly",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"risk_threshold\": 3\n}"
+        }
+      }
+    },
+    {
+      "name": "Detect Anomaly - High Threshold",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{baseUrl}}/recommend/anomaly",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"risk_threshold\": 6\n}"
+        }
+      }
+    }
+  ]
+}
