@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import time
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
@@ -7,7 +8,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, accuracy_score, precision_recall_fscore_support
 
 
 # =========================
@@ -160,7 +161,10 @@ model = Pipeline(steps=[
 ])
 
 print("Đang huấn luyện mô hình...")
+train_start = time.perf_counter()
 model.fit(X_train, Y_train)
+train_elapsed = time.perf_counter() - train_start
+print(f"Thời gian huấn luyện: {train_elapsed:.2f}s")
 
 # =========================
 # 6.1 SAVE TRAINED MODEL
@@ -182,6 +186,21 @@ print(classification_report(
     Y_pred,
     target_names=Y.columns
 ))
+
+accuracy = accuracy_score(Y_test, Y_pred)
+precision_macro, recall_macro, f1_macro, _ = precision_recall_fscore_support(
+    Y_test,
+    Y_pred,
+    average="macro",
+    zero_division=0
+)
+
+print("\nChi so (Metric) | Gia tri | Y nghia")
+print(f"Accuracy | {accuracy * 100:.2f}% | Ty le du doan dung tong the")
+print(f"Precision (Macro) | {precision_macro * 100:.2f}% | Giam thieu goi y sai (it False Positive)")
+print(f"Recall (Macro) | {recall_macro * 100:.2f}% | Dam bao khong bo sot quyen can thiet")
+print(f"F1-Score | {f1_macro * 100:.2f}% | Can bang giua do chinh xac va do phu")
+print(f"Training Time | {train_elapsed:.2f}s | Thoi gian huan luyen nhanh, phu hop tai huan luyen")
 
 # =========================
 # 8. DEMO: RECOMMEND PERMISSIONS FOR NEW USER
